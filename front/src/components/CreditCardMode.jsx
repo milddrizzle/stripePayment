@@ -29,7 +29,7 @@ function CreditCardMode() {
         </EuiFormRow>
         <EuiFormRow label="Card Details">
           <EuiFlexGroup>
-            <EuiFlexItem grow={3}>
+            <EuiFlexItem grow={3} style={{ margin: "12px 6px" }}>
               <EuiFieldText
                 placeholder="Card Number"
                 prepend={[
