@@ -1,0 +1,8 @@
+const getFormattedDate = (date) => {
+  const dt = new Date(date);
+  return `${daysInWeek[dt.getDay()]} ${dt.getDate()} ${
+    monthName[dt.getMonth()]
+  } ${dt.getFullYear()}`;
+};
+
+console.log(getFormattedDate("2021-04-29"));
