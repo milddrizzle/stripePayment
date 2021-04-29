@@ -1,3 +1,21 @@
+const monthName = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+const daysInWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+
+
 const getFormattedDate = (date) => {
   const dt = new Date(date);
   return `${daysInWeek[dt.getDay()]} ${dt.getDate()} ${
